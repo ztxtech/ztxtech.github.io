@@ -139,5 +139,11 @@ awards:
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
+head_meta: >-
+  <meta name="description" content="Tianxiang Zhan's Curriculum Vitae. Professional profile and career history of Tianxiang Zhan.">
+  <meta name="keywords" content="Tianxiang Zhan, CV, Resume, Curriculum Vitae, Professional Profile">
+  <meta name="author" content="Tianxiang Zhan">
+
 footer_text: >-
   <a href="https://github.com/ztxtech" target="_blank"><i class="fas fa-pencil-ruler"></i> ztxtech's Github</a>
+  <a href="http://www.beian.miit.gov.cn" target="_blank">皖ICP备2022011621号</a>
