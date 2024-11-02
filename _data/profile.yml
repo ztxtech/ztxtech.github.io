@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Tianxiang Zhan"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/uestc.jpg" alt="University of Electronic Science and Technology of China" class="inline-badge"/></span> M.S., University of Electronic Science and Technology of China (Now)'
-  - '<span class="no-break"><img src="assets/images/badges/swu.jpg" alt="Southwest University" class="inline-badge"/></span> B.S., Southwest University (2023)'
+  - '<span class="no-break"><img src="assets/images/badges/affiliation/uestc.jpg" alt="University of Electronic Science and Technology of China" class="inline-badge"/></span> M.S., University of Electronic Science and Technology of China (Now)'
+  - '<span class="no-break"><img src="assets/images/badges/affiliation/swu.jpg" alt="Southwest University" class="inline-badge"/></span> B.S., Southwest University (2023)'
 
 email: "ztxtech@std.uestc.edu.cn"
 gscholar: bRYz250AAAAJ
@@ -31,27 +31,38 @@ portrait_caption: >-
 
 education:
 - name: University of Electronic Science and Technology of China
-  logo: assets/images/badges/uestc.jpg
+  logo: assets/images/badges/affiliation/uestc.jpg
   position: M.S. in Computer Science
   date: Sep. 2023 - Now
 
 - name: Southwest University
-  logo: assets/images/badges/swu.jpg
+  logo: assets/images/badges/affiliation/swu.jpg
   position: B.S. in Software Engineering
   date: Sep. 2019 - Jul. 2023
 
 experience:
 - name: Chongqing University
-  logo: assets/images/badges/cqu.jpg
+  logo: assets/images/badges/affiliation/cqu.jpg
   position: Research Intern
   date: Sep. 2022 - Now
 
+- name: Griffith University
+  logo: assets/images/badges/affiliation/grififth.svg
+  position: Research Intern
+  date: Sep. 2024 - Now
+
 reviewer:
 - name: Conference and Workshop on Neural Information Processing Systems 2024
-  logo: assets/images/badges/nips.svg
+  logo: assets/images/badges/reviewer/nips.svg
+
+- name: International Conference on Learning Representations 2025
+  logo: assets/images/badges/reviewer/iclr.svg
+
+- name: International Conference on Artificial Intelligence and Statistics 2025
+  logo: assets/images/badges/reviewer/aistats.jpg
 
 - name: IEEE Access
-  logo: assets/images/badges/access.jpg
+  logo: assets/images/badges/reviewer/access.jpg
 
 # 2023，电子科技大学新生奖学金
 # 2022，西南大学三好学生
