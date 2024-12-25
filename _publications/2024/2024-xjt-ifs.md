@@ -3,7 +3,7 @@ title:          Evaluating Evidential Reliability In Pattern Recognition Based O
 date:           2024-10-30 00:10:00 +0800
 selected:       false
 pub:            "Arxiv"
-pub_last:       ' <span class="badge badge-pill badge-info">Preprint</span> <span class="badge badge-pill badge-secondary">Supervisor</span>' 
+pub_last:       ' <span class="badge badge-pill badge-info">Preprint</span> <span class="badge badge-pill badge-secondary">Mentored</span>' 
 pub_date:       "2024"
 
 abstract: >-

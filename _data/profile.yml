@@ -67,6 +67,15 @@ reviewer:
 - name: IEEE Access
   logo: assets/images/badges/reviewer/access.jpg
 
+- name: Discover Artificial Intelligence
+  logo: assets/images/badges/reviewer/dai.webp
+
+mentor:
+- name: Jingyou Wu
+- name: Juntao Xu
+- name: Mengyu Yang
+
+
 # 2023，电子科技大学新生奖学金
 # 2022，西南大学三好学生
 # 2022，西南大学一等奖学金
