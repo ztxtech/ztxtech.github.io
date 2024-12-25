@@ -76,6 +76,23 @@
                     </div>
                     {% endif %}
 
+                    {% if site.data.profile.mentor %}
+                    <div class="col-md-6">
+                        <div class="mx-2 my-1">
+                            <h6>Mentor Role</h6>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.mentor %}
+                                <li class="media mb-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }}</p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
                 </div>
             </div>
         </div>
