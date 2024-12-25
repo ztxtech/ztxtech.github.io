@@ -1,7 +1,7 @@
 ---
 title:          Evaluating Evidential Reliability In Pattern Recognition Based On Intuitionistic Fuzzy Sets
 date:           2024-10-30 00:10:00 +0800
-selected:       true
+selected:       false
 pub:            "Arxiv"
 pub_last:       ' <span class="badge badge-pill badge-info">Preprint</span> <span class="badge badge-pill badge-secondary">Supervisor</span>' 
 pub_date:       "2024"
