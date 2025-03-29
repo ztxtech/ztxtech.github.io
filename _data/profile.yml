@@ -52,17 +52,23 @@ experience:
   date: Oct. 2024 - Now
 
 reviewer:
-- name: Conference and Workshop on Neural Information Processing Systems 2024
+- name: NeurIPS 2024
   logo: assets/images/badges/reviewer/nips.svg
 
-- name: International Conference on Learning Representations 2025
+- name: ICLR 2025
   logo: assets/images/badges/reviewer/iclr.svg
 
-- name: International Conference on Artificial Intelligence and Statistics 2025
+- name: AISTATS 2025
   logo: assets/images/badges/reviewer/aistats.jpg
 
-- name: 2025 IEEE International Conference on Acoustics, Speech, and Signal Processing
+- name: ICASSP 2025
   logo: assets/images/badges/reviewer/icassp2025.png
+
+- name: ICML 2025
+  logo: assets/images/badges/reviewer/icml2025.svg
+
+- name: IEEE Transactions on Knowledge and Data Engineering
+  logo: assets/images/badges/reviewer/tkde.webp
 
 - name: IEEE Access
   logo: assets/images/badges/reviewer/access.jpg
@@ -74,6 +80,7 @@ mentor:
 - name: Jingyou Wu
 - name: Juntao Xu
 - name: Mengyu Yang
+- name: Duozi Lin
 
 
 # 2023，电子科技大学新生奖学金
