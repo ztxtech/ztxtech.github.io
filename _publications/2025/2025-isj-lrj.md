@@ -1,6 +1,6 @@
 ---
 title:          Learnable WSN Deployment of Evidential Collaborative Sensing Model
-date:           2024-04-30 00:10:00 +0800
+date:           2025-04-30 00:10:00 +0800
 selected:       false
 pub:            "IEEE Sensors Journal"
 pub_last:       ' <span class="badge badge-pill badge-info">中科院升级版3区</span>'
