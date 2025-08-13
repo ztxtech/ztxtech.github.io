@@ -3,7 +3,7 @@ title: Evidential Prototype Learning for Semi-supervised Medical Image Segmentat
 date: 2025-08-01 00:10:00 +0800
 selected: true
 pub: "The 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
-pub_last: ' <span class="badge badge-pill badge-custom badge-warning">CCF A</span>'
+pub_last: ' <span class="badge badge-pill badge-custom badge-danger">CCF A</span>'
 pub_date: "2025"
 
 abstract: >-

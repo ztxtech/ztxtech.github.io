@@ -41,15 +41,30 @@ education:
     date: Sep. 2019 - Jul. 2023
 
 experience:
-  - name: Chongqing University
-    logo: assets/images/badges/affiliation/cqu.jpg
-    position: Research Intern
-    date: Sep. 2022 - Now
-
   - name: Griffith University
     logo: assets/images/badges/affiliation/grififth.svg
     position: Research Intern
     date: Oct. 2024 - Now
+
+  - name: PYPOTS
+    logo: assets/images/badges/affiliation/pypots.svg
+    position: Research Fellow
+    date: Apr. 2024 - Now
+
+  - name: University of Macau
+    logo: assets/images/badges/affiliation/um.svg
+    position: Research Intern
+    date: Mar. 2024 - Now
+
+  - name: Peking University
+    logo: assets/images/badges/affiliation/pku.png
+    position: Research Intern
+    date: Mar. 2024 - Now
+
+  - name: Chongqing University
+    logo: assets/images/badges/affiliation/cqu.jpg
+    position: Research Intern
+    date: Sep. 2022 - Now
 
 reviewer:
   - name: NeurIPS
