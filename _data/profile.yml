@@ -30,58 +30,60 @@ portrait_caption: >-
   Shotted in 2023
 
 education:
-- name: University of Electronic Science and Technology of China
-  logo: assets/images/badges/affiliation/uestc.jpg
-  position: M.S. in Computer Science
-  date: Sep. 2023 - Now
+  - name: University of Electronic Science and Technology of China
+    logo: assets/images/badges/affiliation/uestc.jpg
+    position: M.S. in Computer Science
+    date: Sep. 2023 - Now
 
-- name: Southwest University
-  logo: assets/images/badges/affiliation/swu.jpg
-  position: B.S. in Software Engineering
-  date: Sep. 2019 - Jul. 2023
+  - name: Southwest University
+    logo: assets/images/badges/affiliation/swu.jpg
+    position: B.S. in Software Engineering
+    date: Sep. 2019 - Jul. 2023
 
 experience:
-- name: Chongqing University
-  logo: assets/images/badges/affiliation/cqu.jpg
-  position: Research Intern
-  date: Sep. 2022 - Now
+  - name: Chongqing University
+    logo: assets/images/badges/affiliation/cqu.jpg
+    position: Research Intern
+    date: Sep. 2022 - Now
 
-- name: Griffith University
-  logo: assets/images/badges/affiliation/grififth.svg
-  position: Research Intern
-  date: Oct. 2024 - Now
+  - name: Griffith University
+    logo: assets/images/badges/affiliation/grififth.svg
+    position: Research Intern
+    date: Oct. 2024 - Now
 
 reviewer:
-- name: NeurIPS 2024
-  logo: assets/images/badges/reviewer/nips.svg
+  - name: NeurIPS
+    logo: assets/images/badges/reviewer/nips.svg
 
-- name: ICLR 2025
-  logo: assets/images/badges/reviewer/iclr.svg
+  - name: ICLR
+    logo: assets/images/badges/reviewer/iclr.svg
 
-- name: AISTATS 2025
-  logo: assets/images/badges/reviewer/aistats.jpg
+  - name: ICML
+    logo: assets/images/badges/reviewer/icml.svg
 
-- name: ICASSP 2025
-  logo: assets/images/badges/reviewer/icassp2025.png
+  - name: AAAI
+    logo: assets/images/badges/reviewer/aaai.svg
 
-- name: ICML 2025
-  logo: assets/images/badges/reviewer/icml.svg
+  - name: AISTATS
+    logo: assets/images/badges/reviewer/aistats.jpg
 
-- name: IEEE Transactions on Knowledge and Data Engineering
-  logo: assets/images/badges/reviewer/tkde.png
+  - name: ICASSP
+    logo: assets/images/badges/reviewer/icassp2025.png
 
-- name: IEEE Access
-  logo: assets/images/badges/reviewer/access.jpg
+  - name: IEEE Transactions on Knowledge and Data Engineering
+    logo: assets/images/badges/reviewer/tkde.png
 
-- name: Discover Artificial Intelligence
-  logo: assets/images/badges/reviewer/dai.webp
+  - name: IEEE Access
+    logo: assets/images/badges/reviewer/access.jpg
+
+  - name: Discover Artificial Intelligence
+    logo: assets/images/badges/reviewer/dai.webp
 
 mentor:
-- name: Jingyou Wu
-- name: Juntao Xu
-- name: Mengyu Yang
-- name: Duozi Lin
-
+  - name: Jingyou Wu
+  - name: Juntao Xu
+  - name: Mengyu Yang
+  - name: Duozi Lin
 
 # 2023，电子科技大学新生奖学金
 # 2022，西南大学三好学生
@@ -166,8 +168,7 @@ mentor:
 #   - name: Second Prize in the Chongqing Division, 12th National College Student Mathematics Competition
 #     date: 2020
 
-
-# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 head_meta: >-
   <meta name="description" content="Tianxiang Zhan's Curriculum Vitae. Professional profile and career history of Tianxiang Zhan.">
