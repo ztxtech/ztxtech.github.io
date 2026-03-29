@@ -2,7 +2,8 @@
 
 ## 🗪 Conference Reviewers
 
-- [NeurIPS](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
+<!-- - [NeurIPS](https://nips.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D) -->
+
 - [ICML](https://icml.cc/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [AAAI](https://aaai.org/) ![Static Badge](https://img.shields.io/badge/CCF_A-EF413D)
 - [ICLR](https://iclr.cc/)
