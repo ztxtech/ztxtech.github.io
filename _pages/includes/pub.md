@@ -107,6 +107,7 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 ## 📷 Preprints
 
+- [![arXiv](https://img.shields.io/badge/cs.LG-2604.24041-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2604.24041) [End-to-End Learning for Partially-Observed Time Series with PyPOTS](https://arxiv.org/abs/2604.24041), Wenjie Du, Yiyuan Yang, **Tianxiang Zhan**, and Qingsong Wen.
 - [![arXiv](https://img.shields.io/badge/cs.CV-2506.02492-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2506.02492) [Co-Evidential Fusion with Information Volume for Medical Image Segmentation](https://arxiv.org/abs/2506.02492), Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
 - [![arXiv](https://img.shields.io/badge/cs.CV-2412.19433-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2412.19433) [Residual Feature-Reutilization Inception Network for Image Classification](https://arxiv.org/abs/2412.19433), Yuanpeng He, Wenjie Song, Lijian Li, **Tianxiang Zhan**, and Wenpin Jiao.
 - [![arXiv](https://img.shields.io/badge/cs.IA-2410.22772-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2410.22772) [Reliability Assessment of Information Sources Based on Random Permutation Set](https://arxiv.org/abs/2410.22772), Juntao Xu, **Tianxiang Zhan**, and Yong Deng.

@@ -6,4 +6,4 @@ I am currently a Master student at the University of Electronic Science and Tech
 
 ## 🌟 **Experience & Future Goal**
 
-I also care about how to use these methods in specific domains. I have strong interests in **Spatio-temporal Data** and **Medical Healthcare** and **Quantitative Finance**. I have worked as a research intern at **Griffith University** and **University of Macau**. I also serve as a research fellow at **[PyPOTS](https://pypots.com/)** because I enjoy coding and sharing [my code 💻](https://github.com/ztxtech/). I am now actively looking for a **Fully Funded Ph.D. Position**. I hope to join a team where I can continue my research on time series. Please feel free to contact me via email if you are interested in my profile 📧.
+I also care about how to use these methods in specific domains. I have strong interests in **Spatio-temporal Data**. I have worked as a research intern at **Griffith University** and **University of Macau**. I also serve as a research fellow at **[PyPOTS](https://pypots.com/)** because I enjoy coding and sharing [my code 💻](https://github.com/ztxtech/).
