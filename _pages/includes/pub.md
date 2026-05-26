@@ -2,6 +2,22 @@
 
 ## 😘 Selected Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/covers/2026-aion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AION: Next-Generation Tasks and Practical Harness for Time Series](https://arxiv.org/abs/2605.25045)
+
+**Tianxiang Zhan**, Xiaobao Song, Tong Guan, Shirui Pan, and Ming Jin.
+
+arXiv preprint arXiv:2605.25045 (2026).
+
+[![arXiv](https://img.shields.io/badge/cs.AI-2605.25045-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2605.25045) [![Code](https://img.shields.io/badge/ztxtech-aion-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/aion)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Fuzzy Sets and Systems 2026</div><img src='images/covers/2026-fss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
