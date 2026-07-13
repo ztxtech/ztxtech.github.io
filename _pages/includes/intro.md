@@ -2,7 +2,7 @@
 
 ## 🎓 **Academic Background & Research Interests**
 
-I recently earned my Master's degree from the University of Electronic Science and Technology of China (June 2026). Starting September 2026, I will join [Monash University](https://www.monash.edu/) as a PhD candidate in Information Technology. My research interest mainly centers on **Time Series Analysis**. I pay close attention to **Foundation Models** and **Representation Learning**. I try to understand the intrinsic nature of data through **Statistical Physics** and **Information Theory**. I also work on **Uncertainty Theory** to make models more reliable. I believe that a good model should handle data noise and concept drift well. I aim to solve real world problems with robust algorithms 🚀.
+Starting September 2026, I will join [Monash University](https://www.monash.edu/) as a PhD candidate in Information Technology. My research interest mainly centers on **Time Series Analysis**. I pay close attention to **Foundation Models** and **Representation Learning**. I try to understand the intrinsic nature of data through **Statistical Physics** and **Information Theory**. I also work on **Uncertainty Theory** to make models more reliable. I believe that a good model should handle data noise and concept drift well. I aim to solve real world problems with robust algorithms 🚀.
 
 ## 🌟 **Experience & Future Goal**
 
