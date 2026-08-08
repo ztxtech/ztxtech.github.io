@@ -107,3 +107,99 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ==========================================================================
+   Visual refresh (2026-08)
+   ========================================================================== */
+
+/* --- Global rhythm --- */
+body {
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page__content {
+  h1 {
+    margin-top: 1.4em;
+  }
+  h2 {
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+  }
+}
+
+/* --- Publication cards --- */
+.paper-box {
+  border-bottom: none;
+  border-radius: 10px;
+  padding: 1.6em 1.4em;
+  margin: 0 0 1.6em 0;
+  background: #fafbfd;
+  box-shadow: 0 1px 3px rgba(16, 24, 40, 0.06), 0 1px 2px rgba(16, 24, 40, 0.04);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(16, 24, 40, 0.10), 0 2px 6px rgba(16, 24, 40, 0.06);
+    transform: translateY(-2px);
+  }
+
+  .paper-box-image img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, 0.12);
+  }
+}
+
+/* Venue badge: rounded pill */
+.badge {
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 1px 3px rgba(0, 54, 159, 0.35);
+}
+
+/* hr between cards is redundant with card background — fade it out */
+.page__content hr {
+  border: none;
+  margin: 0.5em 0;
+}
+
+/* --- Sidebar polish --- */
+.author__avatar img {
+  @include breakpoint($large) {
+    border: none;
+    padding: 0;
+    box-shadow: 0 0 0 4px #fff, 0 0 0 5px #dfe5ee, 0 4px 14px rgba(16, 24, 40, 0.10);
+  }
+}
+
+.sidebar .author__name {
+  letter-spacing: -0.01em;
+}
+
+/* --- Link polish: quieter underline, smoother hover --- */
+.page__content a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($info-color, 0.35);
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    border-bottom-color: $info-color;
+  }
+}
+
+/* badge / image links shouldn't get text underlines */
+.page__content a img {
+  border: none;
+}
+.page__content a:has(> img) {
+  border-bottom: none;
+}
+
+/* --- Masthead subtle separation --- */
+.masthead {
+  border-bottom: 1px solid #eceff4;
+}
