@@ -119,6 +119,8 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 
 ## 😁 Other Publications
 
+- ![Static Badge](https://img.shields.io/badge/KDD_2026-EF413D) [End-to-End Learning for Partially-Observed Time Series with PyPOTS](https://dl.acm.org/doi/10.1145/3770855.3816470), Wenjie Du, Yiyuan Yang, **Tianxiang Zhan**, and Qingsong Wen.
+- ![Static Badge](https://img.shields.io/badge/IEEE_TFS_2026-00629B) [Epistemic Uncertainty-Oriented Data Augmentation via Evidential Granulation](https://ieeexplore.ieee.org/document/11641031), Binkai Liu, Qianli Zhou, **Tianxiang Zhan**, Neal N. Xiong, and Yong Deng. ![Static Badge](https://img.shields.io/badge/CCF_B-F08122)
 - ![Static Badge](https://img.shields.io/badge/Physica_A_2026-FFFDEB) [Temperature-controlled power normalization of belief function](https://doi.org/10.1016/j.physa.2026.131662), Xingyuan Chen, **Tianxiang Zhan**, and Yong Deng.
 - ![Static Badge](https://img.shields.io/badge/%20Information_Sciences_2025-E87224) [Central moments of belief information](https://doi.org/10.1016/j.ins.2025.122951), Xingyuan Chen, Duozi Lin, **Tianxiang Zhan**, Yong Deng. ![Static Badge](https://img.shields.io/badge/CCF_B-F08122) [![Code](https://img.shields.io/badge/ztxtech-mass__cf-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/mass_cf)
 - ![Static Badge](https://img.shields.io/badge/%20International_Journal_of_Fuzzy_Systems_2025-C3CDE7) [Evaluating Evidential Reliability in Pattern Recognition Based on Intuitionistic Fuzzy Sets](https://link.springer.com/article/10.1007/s40815-025-02117-7/), Juntao Xu, **Tianxiang Zhan**, and Yong Deng.
