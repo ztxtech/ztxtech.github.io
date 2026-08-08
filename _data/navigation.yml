@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "About Me"
-    url: "/#-about-me"
+    url: "/#-hello-im-tianxiang"
 
   - title: "Educations"
     url: "/#-educations"
@@ -11,9 +11,6 @@ main:
 
   - title: "Publications"
     url: "/#-publications"
-
-  - title: "Reviewers"
-    url: "/#-reviewers"
 
   - title: "Mentor Roles"
     url: "/#-mentor-roles"

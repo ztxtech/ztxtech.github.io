@@ -203,3 +203,100 @@ body {
 .masthead {
   border-bottom: 1px solid #eceff4;
 }
+
+/* ==========================================================================
+   Refinement pass 2 (2026-08): quiet texture, no gimmicks
+   ========================================================================== */
+
+/* Frosted sticky masthead */
+.masthead {
+  background-color: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+          backdrop-filter: saturate(180%) blur(12px);
+}
+
+.masthead__menu-item a {
+  color: $dark-gray;
+  font-weight: 500;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $info-color;
+  }
+}
+
+/* Typographic hierarchy: weight contrast over size contrast */
+.page__content {
+  h1, h2 {
+    letter-spacing: -0.015em;
+    font-weight: 700;
+  }
+
+  h2 {
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid #eef1f5;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+/* Cards: hairline border + flatter resting state, shadow earned on hover */
+.paper-box {
+  background: #fff;
+  border: 1px solid #e8ecf1;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+
+  &:hover {
+    border-color: #d8dfe8;
+    box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08), 0 2px 6px rgba(16, 24, 40, 0.05);
+  }
+}
+
+/* Venue badge: slightly softer blue, crisper type */
+.badge {
+  background-color: #1e4fd8;
+  font-size: 0.75em;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+/* Other-publication list: denser rhythm, badges align optically */
+.page__content ul li,
+.page__content ol li {
+  margin-bottom: 0.45em;
+}
+
+/* Sidebar: name weight + bio breathing room */
+.sidebar .author__name {
+  font-weight: 700;
+}
+
+.sidebar .author__bio {
+  color: $gray;
+  line-height: 1.45;
+}
+
+.author__urls li {
+  margin-bottom: 0.15em;
+}
+
+.author__urls a {
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $info-color;
+    text-decoration: none;
+  }
+}
+
+/* Section spacing between major blocks */
+.page__content > h2 {
+  margin-top: 2.2em;
+}
+
+/* Selection color — small detail that reads as "cared for" */
+::selection {
+  background: rgba($info-color, 0.16);
+}
