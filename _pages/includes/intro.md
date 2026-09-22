@@ -1,8 +1,8 @@
 # 👋 Hello, I'm Tianxiang
 
-## 🎓 **Academic Background & Research Interests**
+## 🎓 **Research Interests**
 
-Starting September 2026, I will join [Monash University](https://www.monash.edu/) as a PhD candidate in Information Technology. My research interest mainly centers on **Time Series Analysis**. I pay close attention to **Foundation Models** and **Representation Learning**. I try to understand the intrinsic nature of data through **Statistical Physics** and **Information Theory**. I also work on **Uncertainty Theory** to make models more reliable. I believe that a good model should handle data noise and concept drift well. I aim to solve real world problems with robust algorithms 🚀.
+My research interest mainly centers on **Time Series Analysis**. I pay close attention to **Foundation Models** and **Representation Learning**. I try to understand the intrinsic nature of data through **Statistical Physics** and **Information Theory**. I also work on **Uncertainty Theory** to make models more reliable. I believe that a good model should handle data noise and concept drift well. I aim to solve real world problems with robust algorithms 🚀.
 
 ## 🌟 **Experience & Future Goal**
 

@@ -23,8 +23,6 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Tianxiang Zhan"
   avatar: "images/photos/ztx.jpg"
-  bio: "PhD Candidate in Information Technology, Monash University"
-  location: "Melbourne, Australia"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=bRYz250AAAAJ"
