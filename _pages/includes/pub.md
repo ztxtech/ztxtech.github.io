@@ -11,6 +11,22 @@
 
 ## 😘 Selected Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/covers/2026-fracast.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Fracast-0: Fractal Weight Sharing for a Time Series Foundation Model with Only 85K Parameters](https://ztxtech.github.io/fracast-0/)
+
+**Tianxiang Zhan**, Huanyao Zhang, and Yuanpeng He.
+
+arXiv preprint arXiv:2609.32209 (2026).
+
+[![arXiv](https://img.shields.io/badge/cs.LG-2609.32209-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2609.32209) [![GitHub](https://img.shields.io/badge/ztxtech-fracast--0-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/fracast-0) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-fracast--0-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ztxtech/fracast-0) [![Demo](https://img.shields.io/badge/Demo-Web%20App-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/ztxtech/fracast-0-demo)
+
+</div>
+</div>
+
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/covers/2026-aion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -71,53 +87,12 @@ arXiv preprint arXiv:2506.14790 (2025).
 </div>
 </div>
 
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/covers/2025-kdd-hyp.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944)
-
-Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
-
-In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2, pp. 908-919. 2025.
-
-</div>
-</div>
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CSF 2024</div><img src='images/covers/2024-csf.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Generalized information entropy and generalized information dimension](https://www.sciencedirect.com/science/article/pii/S0960077924005289)
-
-**Tianxiang Zhan**, Jiefeng Zhou, Zhen Li, and Yong Deng.
-
-Chaos, Solitons & Fractals 184 (2024): 114976.
-
-</div>
-</div>
-
----
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2023</div><img src='images/covers/2023-tfs.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/)
-
-**Tianxiang Zhan**, Yuanpeng He, Yong Deng, and Zhen Li.
-
-IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
-
-</div>
-</div>
-
 ## 😁 Other Publications
 
 - ![Static Badge](https://img.shields.io/badge/KDD_2026-EF413D) [End-to-End Learning for Partially-Observed Time Series with PyPOTS](https://dl.acm.org/doi/10.1145/3770855.3816470), Wenjie Du, Yiyuan Yang, **Tianxiang Zhan**, and Qingsong Wen.
 - ![Static Badge](https://img.shields.io/badge/IEEE_TFS_2026-00629B) [Epistemic Uncertainty-Oriented Data Augmentation via Evidential Granulation](https://ieeexplore.ieee.org/document/11641031), Binkai Liu, Qianli Zhou, **Tianxiang Zhan**, Neal N. Xiong, and Yong Deng.
 - ![Static Badge](https://img.shields.io/badge/Physica_A_2026-FFFDEB) [Temperature-controlled power normalization of belief function](https://doi.org/10.1016/j.physa.2026.131662), Xingyuan Chen, **Tianxiang Zhan**, and Yong Deng.
+- ![Static Badge](https://img.shields.io/badge/KDD_2025-EF413D) [Evidential Prototype Learning for Semi-supervised Medical Image Segmentation](https://dl.acm.org/doi/abs/10.1145/3711896.3736944), Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
 - ![Static Badge](https://img.shields.io/badge/%20Information_Sciences_2025-E87224) [Central moments of belief information](https://doi.org/10.1016/j.ins.2025.122951), Xingyuan Chen, Duozi Lin, **Tianxiang Zhan**, Yong Deng. [![Code](https://img.shields.io/badge/ztxtech-mass__cf-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/mass_cf)
 - ![Static Badge](https://img.shields.io/badge/%20International_Journal_of_Fuzzy_Systems_2025-C3CDE7) [Evaluating Evidential Reliability in Pattern Recognition Based on Intuitionistic Fuzzy Sets](https://link.springer.com/article/10.1007/s40815-025-02117-7/), Juntao Xu, **Tianxiang Zhan**, and Yong Deng.
 - ![Static Badge](https://img.shields.io/badge/Computational_and_Applied_Mathematics_2025-FED000) [Transfer Graph in the Context of Evidence Theory](https://link.springer.com/article/10.1007/s40314-025-03293-w/), **Tianxiang Zhan**, Qianli Zhou, Yuanpeng He, and Yong Deng. [![Code](https://img.shields.io/badge/ztxtech-tgoet-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/tgoet)
@@ -126,7 +101,9 @@ IEEE Transactions on Fuzzy Systems 32, no. 3 (2023): 831-845.
 - ![Static Badge](https://img.shields.io/badge/Pattern_Recognition_2025-F58220) [Co-evidential fusion with information volume for semi-supervised medical image segmentation](https://www.sciencedirect.com/science/article/pii/S0031320325002997), Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
 - ![Static Badge](https://img.shields.io/badge/Pattern_Recognition_2024-F58220) [Residual feature-reutilization inception network](https://www.sciencedirect.com/science/article/pii/S0031320324001900/), Yuanpeng He, Wenjie Song, Lijian Li, **Tianxiang Zhan**, and Wenpin Jiao.
 - ![Static Badge](https://img.shields.io/badge/Pattern_Recognition_2024-F58220) [A novel weighted approach for time series forecasting based on visibility graph](https://www.sciencedirect.com/science/article/pii/S0031320324004710/), **Tianxiang Zhan**, and Fuyuan Xiao.
+- ![Static Badge](https://img.shields.io/badge/Chaos_Solitons_and_Fractals_2024-00838F) [Generalized information entropy and generalized information dimension](https://www.sciencedirect.com/science/article/pii/S0960077924005289), **Tianxiang Zhan**, Jiefeng Zhou, Zhen Li, and Yong Deng.
 - ![Static Badge](https://img.shields.io/badge/ICASSP_2024-14303E) [Generalized uncertainty-based evidential fusion with hybrid multi-head attention for weak-supervised temporal action localization](https://ieeexplore.ieee.org/abstract/document/10446799/), Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Wenpin Jiao, and Chi-Man Pun.
+- ![Static Badge](https://img.shields.io/badge/IEEE_TFS_2023-00629B) [Differential convolutional fuzzy time series forecasting](https://ieeexplore.ieee.org/abstract/document/10234022/), **Tianxiang Zhan**, Yuanpeng He, Yong Deng, and Zhen Li.
 - ![Static Badge](https://img.shields.io/badge/International_Journal_of_Intelligent_Systems_2021-005A90) [A fast evidential approach for stock forecasting](https://onlinelibrary.wiley.com/doi/abs/10.1002/int.22598/), **Tianxiang Zhan**, and Fuyuan Xiao.
 
 ## 📷 Preprints
