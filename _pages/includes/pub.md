@@ -20,7 +20,7 @@
 
 arXiv preprint arXiv:2609.32209 (2026).
 
-[![arXiv](https://img.shields.io/badge/cs.LG-2609.32209-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2609.32209) [![GitHub](https://img.shields.io/badge/ztxtech-fracast--0-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/fracast-0) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-fracast--0-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ztxtech/fracast-0) [![Demo](https://img.shields.io/badge/Demo-Web%20App-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/ztxtech/fracast-0-demo)
+[![arXiv](https://img.shields.io/badge/cs.LG-2609.32209-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2609.32209) [![GitHub](https://img.shields.io/badge/ztxtech-fracast--0-%23121011?logo=github&logoColor=white)](https://github.com/ztxtech/fracast-0)<br>[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-fracast--0-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/ztxtech/fracast-0) [![Demo](https://img.shields.io/badge/Demo-Web%20App-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/ztxtech/fracast-0-demo)
 
 </div>
 </div>
