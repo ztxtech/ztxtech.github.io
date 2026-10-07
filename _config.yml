@@ -9,6 +9,8 @@
 title: "Tianxiang Zhan"
 description: "Explore the secrets of time."
 repository: "ztxtech/ztxtech.github.io"
+url: "https://ztxtech.github.io" # canonical host: used by meta tags, JSON-LD and sitemap.xml
+baseurl: ""
 google_scholar_stats_use_cdn: true
 
 # google analytics
@@ -18,6 +20,67 @@ google_analytics_id: "G-WE2J7LBCGB"
 google_site_verification: # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification: # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+
+# Copy written for machine readers: search engines, recruiting assistants and AI agents.
+# Rendered by _includes/seo.html into <title>, meta description and Open Graph tags.
+seo:
+  title: "Tianxiang Zhan | Time Series and ML Researcher"
+  description: >-
+    Tianxiang Zhan is a time series researcher working on foundation models,
+    representation learning and uncertainty theory. Lead author of Fracast-0 and AION;
+    published in IEEE TPAMI and Fuzzy Sets and Systems.
+  keywords: >-
+    Tianxiang Zhan, time series analysis, time series foundation model, machine learning
+    researcher, representation learning, anomaly detection, uncertainty theory, fuzzy
+    sets, spatio-temporal data, PyPOTS, open to research roles
+
+# Machine-readable profile for recruiters, search engines and AI agents.
+# Rendered by _includes/head/structured-data.html (JSON-LD).
+# Keep the same facts mirrored in /llms.txt.
+profile:
+  given_name: "Tianxiang"
+  family_name: "Zhan"
+  job_title: "Machine Learning Researcher (time series analysis)"
+  headline: >-
+    Time series expert working on foundation models, representation learning and
+    uncertainty theory. Lead author of Fracast-0, a time series foundation model with
+    only 85K parameters, and of AION; published in IEEE TPAMI, IEEE TFS, Pattern
+    Recognition and Fuzzy Sets and Systems.
+  availability: >-
+    Open to selective full-time research roles and research collaborations.
+  recruiter_note: >-
+    Recruiters and hiring managers are welcome to ask whether he would consider a
+    current opening.
+  updated: "2026-10-07"
+  knows_about:
+    - "time series analysis"
+    - "time series foundation models"
+    - "time series forecasting"
+    - "representation learning"
+    - "anomaly detection and missing value imputation"
+    - "uncertainty theory and evidence theory"
+    - "fuzzy sets and information entropy"
+    - "spatio-temporal data mining"
+    - "statistical physics and information theory"
+  alumni_of:
+    - name: "University of Electronic Science and Technology of China"
+      url: "https://www.uestc.edu.cn/"
+    - name: "Southwest University"
+      url: "https://www.swu.edu.cn/"
+  affiliation:
+    - name: "PyPOTS (Research Fellow)"
+      url: "https://pypots.com/"
+    - name: "Griffith University, TrustAGI (Research Intern)"
+      url: "https://trust-agi.github.io/"
+  same_as:
+    - "https://scholar.google.com/citations?user=bRYz250AAAAJ"
+    - "https://orcid.org/0000-0002-5188-0381"
+    - "https://dblp.org/pid/289/0349.html"
+    - "https://www.researchgate.net/profile/Tianxiang-Zhan"
+    - "https://github.com/ztxtech"
+    - "https://www.linkedin.com/in/ztxtech"
+    - "https://x.com/ztxtechnology"
+    - "https://bsky.app/profile/ztxtech.bsky.social"
 
 # Site Author
 author:
@@ -63,6 +126,9 @@ include:
   - _pages
   - files
 exclude:
+  # section fragments are pulled in by _pages/about.md and must not be published
+  # as standalone pages (they would be crawlable duplicate content)
+  - _pages/includes
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

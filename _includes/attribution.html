@@ -1,0 +1,143 @@
+<!-- First-touch attribution: remembers the channel that brought a visitor here,
+     reports it to GA4, and tags outgoing email links with that channel.
+     No personal data is stored. -->
+<script>
+  (function () {
+    "use strict";
+
+    var STORAGE_KEY = "ztx.firstTouch.v1";
+    var SESSION_KEY = "ztx.attributionSent.v1";
+    var HOST_LABELS = {
+      "scholar.google.com": "Google Scholar",
+      "google.com": "Google",
+      "bing.com": "Bing",
+      "baidu.com": "Baidu",
+      "duckduckgo.com": "DuckDuckGo",
+      "linkedin.com": "LinkedIn",
+      "t.co": "X",
+      "x.com": "X",
+      "twitter.com": "X",
+      "github.com": "GitHub",
+      "researchgate.net": "ResearchGate",
+      "bsky.app": "Bluesky",
+      "facebook.com": "Facebook",
+      "mp.weixin.qq.com": "WeChat",
+      "zhihu.com": "Zhihu",
+      "xiaohongshu.com": "Xiaohongshu"
+    };
+
+    function readStorage(storage, key) {
+      try {
+        return storage.getItem(key);
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function writeStorage(storage, key, value) {
+      try {
+        storage.setItem(key, value);
+      } catch (error) {
+        /* private mode or blocked storage: attribution is optional */
+      }
+    }
+
+    function queryParam(name) {
+      var pattern = new RegExp("[?&]" + name + "=([^&#]*)");
+      var match = pattern.exec(window.location.search);
+      return match ? decodeURIComponent(match[1].replace(/\+/g, " ")) : "";
+    }
+
+    function hostOf(url) {
+      try {
+        return new URL(url).hostname.replace(/^www\./, "");
+      } catch (error) {
+        return "";
+      }
+    }
+
+    function channelFromReferrer() {
+      var host = hostOf(document.referrer);
+      if (!host) {
+        return "";
+      }
+      return HOST_LABELS[host] || HOST_LABELS[host.replace(/^www\./, "")] || host;
+    }
+
+    function firstTouch() {
+      var stored = readStorage(window.localStorage, STORAGE_KEY);
+      if (stored) {
+        try {
+          return JSON.parse(stored);
+        } catch (error) {
+          /* fall through and rebuild the record */
+        }
+      }
+
+      var taggedChannel = queryParam("ref") || queryParam("utm_source");
+      var referredChannel = channelFromReferrer();
+      var touch = {
+        channel: taggedChannel || referredChannel || "direct",
+        medium: queryParam("utm_medium") || (taggedChannel || referredChannel ? "referral" : "direct"),
+        campaign: queryParam("utm_campaign"),
+        landing: window.location.pathname,
+        referrer: document.referrer || "",
+        referrer_host: hostOf(document.referrer),
+        first_seen: new Date().toISOString()
+      };
+      writeStorage(window.localStorage, STORAGE_KEY, JSON.stringify(touch));
+      return touch;
+    }
+
+    var touch = firstTouch();
+
+    if (typeof window.gtag === "function" && !readStorage(window.sessionStorage, SESSION_KEY)) {
+      writeStorage(window.sessionStorage, SESSION_KEY, "1");
+      window.gtag("event", "first_touch", {
+        channel: touch.channel,
+        medium: touch.medium,
+        campaign: touch.campaign,
+        landing_page: touch.landing,
+        referrer_host: touch.referrer_host || "direct",
+        first_seen: touch.first_seen
+      });
+    }
+
+    function tagEmailLinks() {
+      var links = document.querySelectorAll('a[href^="mailto:"]');
+      for (var i = 0; i < links.length; i += 1) {
+        var href = links[i].getAttribute("href");
+        if (!href || href.indexOf("subject=") !== -1) {
+          continue;
+        }
+        var subject = "Research inquiry for Tianxiang Zhan";
+        if (touch.channel && touch.channel !== "direct") {
+          subject += " (via " + touch.channel + ")";
+        }
+        links[i].setAttribute(
+          "href",
+          href + (href.indexOf("?") === -1 ? "?" : "&") + "subject=" + encodeURIComponent(subject)
+        );
+      }
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", tagEmailLinks);
+    } else {
+      tagEmailLinks();
+    }
+
+    document.addEventListener("click", function (event) {
+      var target = event.target;
+      var link = target && target.closest ? target.closest('a[href^="mailto:"]') : null;
+      if (!link || typeof window.gtag !== "function") {
+        return;
+      }
+      window.gtag("event", "contact_click", {
+        channel: touch.channel,
+        medium: touch.medium,
+        campaign: touch.campaign
+      });
+    });
+  })();
+</script>

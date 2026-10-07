@@ -1,0 +1,60 @@
+{% assign profile_url = page.url | replace: "index.html", "" | absolute_url %}
+{% assign person_id = profile_url | append: "#person" %}
+{% assign profile_description = page.description | default: site.seo.description | default: site.description %}
+{% assign profile_description = profile_description | markdownify | strip_html | strip_newlines | strip %}
+<!-- Structured data: tells search engines, recruiting tools and AI assistants who this page is about. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": {{ profile_url | append: "#profilepage" | jsonify }},
+  "url": {{ profile_url | jsonify }},
+  "name": {{ site.seo.title | default: site.title | jsonify }},
+  "description": {{ profile_description | jsonify }},
+  "dateModified": {{ site.profile.updated | jsonify }},
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": {{ site.url | append: "/#website" | jsonify }},
+    "url": {{ site.url | append: "/" | jsonify }},
+    "name": {{ site.title | jsonify }}
+  },
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ person_id | jsonify }},
+    "name": {{ site.author.name | jsonify }},
+    "givenName": {{ site.profile.given_name | jsonify }},
+    "familyName": {{ site.profile.family_name | jsonify }},
+    "url": {{ profile_url | jsonify }},
+    "image": {{ site.author.avatar | absolute_url | jsonify }},
+    "jobTitle": {{ site.profile.job_title | jsonify }},
+    "description": {{ site.profile.headline | jsonify }},
+    "email": {{ site.author.email | prepend: "mailto:" | jsonify }},
+    "knowsAbout": {{ site.profile.knows_about | jsonify }},
+    "alumniOf": [
+      {% for school in site.profile.alumni_of %}
+      {
+        "@type": "CollegeOrUniversity",
+        "name": {{ school.name | jsonify }},
+        "url": {{ school.url | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "affiliation": [
+      {% for organization in site.profile.affiliation %}
+      {
+        "@type": "Organization",
+        "name": {{ organization.name | jsonify }},
+        "url": {{ organization.url | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ],
+    "sameAs": {{ site.profile.same_as | jsonify }},
+    "seeks": {
+      "@type": "Demand",
+      "name": {{ site.profile.availability | jsonify }},
+      "description": {{ site.profile.recruiter_note | jsonify }}
+    }
+  }
+}
+</script>
