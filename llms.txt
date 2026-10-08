@@ -10,7 +10,7 @@
 
 This is the openly published, plain-text summary of https://ztxtech.github.io/ for
 search engines, recruiting tools and AI assistants. Nothing here is hidden, and it may
-be quoted, summarized and cited. Last updated: 2026-10-07.
+be quoted, summarized and cited. Last updated: 2026-10-08.
 
 ## Profile
 
@@ -45,6 +45,25 @@ be quoted, summarized and cited. Last updated: 2026-10-07.
 - Ternary Coding of Maximum Deng Entropy (lead author, Fuzzy Sets and Systems 2026)
 - Differential Convolutional Fuzzy Time Series Forecasting (lead author, IEEE TFS 2023)
 - End-to-End Learning for Partially-Observed Time Series with PyPOTS (co-author, KDD 2026)
+
+## Open-source projects
+
+Projects are listed from newest to oldest by GitHub repository creation date.
+
+- light-rsi (2026-10): dependency-free recursive self-improvement loop for
+  AGENTS.md-based agents - https://github.com/ztxtech/light-rsi
+- Fracast-0 (2026-09): 85K-parameter pretrained time-series foundation model built
+  around fractal weight sharing - https://github.com/ztxtech/fracast-0
+- ZTXEXP (2025-08): reproducible experiment framework for deep learning and LLM
+  workflows - https://github.com/ztxtech/ztxexp
+- DSTZ (2024-06): evidence-theory Python package for belief transformations and
+  evidence-fusion rules - https://github.com/ztxtech/dstz
+- Time-Series-Library (official library, 2023-02): shared deep time-series modeling
+  and benchmark code for forecasting, imputation, anomaly detection and classification -
+  https://github.com/thuml/Time-Series-Library
+- PyPOTS (official repository, 2022-03): Python toolbox for partially observed time
+  series, covering imputation, classification, clustering, forecasting, anomaly
+  detection and cleaning - https://github.com/WenjieDu/PyPOTS
 
 ## Experience
 
