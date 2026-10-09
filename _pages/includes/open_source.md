@@ -1,4 +1,4 @@
-## Open Sources Project
+# Open Sources Project
 
 A mix of my projects and external references, ranked by GitHub stars. Dates are kept as context.
 
