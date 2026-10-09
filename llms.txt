@@ -10,7 +10,7 @@
 
 This is the openly published, plain-text summary of https://ztxtech.github.io/ for
 search engines, recruiting tools and AI assistants. Nothing here is hidden, and it may
-be quoted, summarized and cited. Last updated: 2026-10-08.
+be quoted, summarized and cited. Last updated: 2026-10-09.
 
 ## Profile
 
@@ -48,22 +48,21 @@ be quoted, summarized and cited. Last updated: 2026-10-08.
 
 ## Open-source projects
 
-Projects are listed from newest to oldest by GitHub repository creation date.
+Projects are ranked by GitHub stars.
 
-- light-rsi (2026-10): dependency-free recursive self-improvement loop for
-  AGENTS.md-based agents - https://github.com/ztxtech/light-rsi
-- Fracast-0 (2026-09): 85K-parameter pretrained time-series foundation model built
-  around fractal weight sharing - https://github.com/ztxtech/fracast-0
-- ZTXEXP (2025-08): reproducible experiment framework for deep learning and LLM
-  workflows - https://github.com/ztxtech/ztxexp
-- DSTZ (2024-06): evidence-theory Python package for belief transformations and
-  evidence-fusion rules - https://github.com/ztxtech/dstz
-- Time-Series-Library (official library, 2023-02): shared deep time-series modeling
-  and benchmark code for forecasting, imputation, anomaly detection and classification -
-  https://github.com/thuml/Time-Series-Library
-- PyPOTS (official repository, 2022-03): Python toolbox for partially observed time
-  series, covering imputation, classification, clustering, forecasting, anomaly
-  detection and cleaning - https://github.com/WenjieDu/PyPOTS
+- PyPOTS (official project, 2022-03, 2,073 stars): partially observed time-series
+  learning across healthcare, energy, transportation and environmental data -
+  https://github.com/WenjieDu/PyPOTS
+- DSTZ (my project, 2024-06, 9 stars): evidence fusion for risk and reliability,
+  sensor fusion and decision support - https://github.com/ztxtech/dstz
+- ZTXEXP (my project, 2025-08, 4 stars): experiment operations for ML forecasting,
+  anomaly detection, recommendation and LLM evaluation -
+  https://github.com/ztxtech/ztxexp
+- Fracast-0 (my project, 2026-09, 2 stars): compact time-series forecasting across
+  energy, retail and manufacturing data, with quantitative forecasting applications -
+  https://github.com/ztxtech/fracast-0
+- light-rsi (my project, 2026-10, 0 stars): recursive self-improvement for AI agents,
+  R&D automation and engineering workflows - https://github.com/ztxtech/light-rsi
 
 ## Experience
 

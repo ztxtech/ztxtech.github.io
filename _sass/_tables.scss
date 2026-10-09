@@ -5,6 +5,8 @@
 table {
   margin-bottom: 1em;
   width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
@@ -38,4 +40,8 @@ td {
 
 tr, td, th {
   vertical-align: middle;
+}
+
+td, th {
+  overflow-wrap: anywhere;
 }

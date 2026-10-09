@@ -19,8 +19,8 @@ redirect_from:
 
 {% include_relative includes/exp.md %}
 
-{% include_relative includes/open_source.md %}
-
 {% include_relative includes/pub.md %}
+
+{% include_relative includes/open_source.md %}
 
 {% include_relative includes/role.md %}
