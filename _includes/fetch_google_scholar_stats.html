@@ -1,24 +1,35 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            var totalCitationsEl = document.getElementById('total_cit')
-            if (totalCitationsEl) {
-                totalCitationsEl.innerHTML = totalCitation;
-            }
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var paper = data['publications'][paperId]
-                if (paper) {
-                    element.innerHTML = '| Citations: ' + paper['num_citations'];
-                }
-            });
+  (function () {
+    "use strict";
+
+    {% if site.google_scholar_stats_use_cdn %}
+    var baseUrl = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@";
+    {% else %}
+    var baseUrl = "https://raw.githubusercontent.com/{{ site.repository }}/";
+    {% endif %}
+
+    fetch(baseUrl + "google-scholar-stats/gs_data.json")
+      .then(function (response) {
+        if (!response.ok) {
+          throw new Error("Unable to load citation data");
+        }
+        return response.json();
+      })
+      .then(function (data) {
+        var totalCitations = document.getElementById("total_cit");
+        if (totalCitations) {
+          totalCitations.textContent = data.citedby;
+        }
+
+        document.querySelectorAll(".show_paper_citations").forEach(function (element) {
+          var paper = data.publications[element.getAttribute("data")];
+          if (paper) {
+            element.textContent = "| Citations: " + paper.num_citations;
+          }
         });
-    })
+      })
+      .catch(function () {
+        /* Citation counts are supplemental; the page remains usable without them. */
+      });
+  })();
 </script>

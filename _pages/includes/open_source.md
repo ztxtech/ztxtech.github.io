@@ -1,4 +1,4 @@
-# Open Sources Project
+## Open Sources Project
 
 A mix of my projects and external references, ranked by GitHub stars. Dates are kept as context.
 
@@ -43,12 +43,10 @@ A mix of my projects and external references, ranked by GitHub stars. Dates are 
       </ul>
       <footer class="opensource-project__links">
         <a href="{{ project.url }}">
-          <i class="fab fa-github" aria-hidden="true"></i>
           Source
         </a>
         {% if project.website_url %}
         <a href="{{ project.website_url }}">
-          <i class="fas fa-external-link-alt" aria-hidden="true"></i>
           {{ project.website_label }}
         </a>
         {% endif %}

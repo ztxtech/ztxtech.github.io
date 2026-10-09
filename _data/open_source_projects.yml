@@ -14,7 +14,7 @@
   website_label: "Website"
   labels:
     - "Healthcare"
-    - "Energy"
+    - "Power & Energy"
     - "Transportation"
     - "Environment"
   dataset_scope: "PhysioNet 2012/2019, ECL, ETT, PeMS Traffic, Air Quality"
@@ -38,6 +38,7 @@
   labels:
     - "Risk & Reliability"
     - "Sensor Fusion"
+    - "Power-System Diagnosis"
     - "Decision Support"
   dataset_scope: "No fixed dataset; synthetic evidence-fusion examples"
   features:
@@ -59,8 +60,9 @@
   website_label: "Documentation"
   labels:
     - "ML R&D"
-    - "Forecasting"
+    - "Time-Series Forecasting"
     - "LLM Evaluation"
+    - "Quant Research"
     - "Experiment Ops"
   dataset_scope: "No fixed dataset; forecasting, anomaly, recommendation and LLM templates"
   features:
@@ -81,11 +83,12 @@
   website_url: "https://ztxtech.github.io/fracast-0/"
   website_label: "Project page"
   labels:
-    - "Energy"
-    - "Retail"
+    - "Power & Energy"
+    - "Finance & Trading"
+    - "Retail Demand"
     - "Manufacturing"
     - "Quantitative Forecasting"
-  dataset_scope: "GIFT-Eval, BOOM, TIME, FEV; sales, solar and Smart-Manufacturing"
+  dataset_scope: "GIFT-Eval, BOOM, TIME, FEV; electricity, finance, sales, solar and Smart-Manufacturing"
   features:
     - "Forecasts without per-dataset fine-tuning using a release model with 85,001 parameters."
     - "Reuses one causal dilated-convolution block across a geometric ladder of temporal scales."
