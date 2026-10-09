@@ -46,7 +46,7 @@ endif %}
       {% endif %} {% if author.email %}
       <li>
         <a href="mailto:{{ author.email }}"
-          ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a
+          >{% include social-icon.html name="envelope" %} Email</a
         >
       </li>
       {% endif %} {% if author.keybase %}
@@ -58,21 +58,20 @@ endif %}
       {% endif %} {% if author.researchgate %}
       <li>
         <a href="{{ author.researchgate }}"
-          ><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i>
+          >{% include social-icon.html name="researchgate" %}
           ResearchGate</a
         >
       </li>
       {% endif %} {% if author.x %}
       <li>
         <a href="https://x.com/{{ author.x }}"
-          ><i class="fa fa-twitter-square" aria-hidden="true"></i> X
-          (Twitter)</a
+          >{% include social-icon.html name="x" %} X</a
         >
       </li>
       {% endif %} {% if author.facebook %}
       <li>
         <a href="https://www.facebook.com/{{ author.facebook }}"
-          ><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>
+          >{% include social-icon.html name="facebook" %}
           Facebook</a
         >
       </li>
@@ -86,13 +85,13 @@ endif %}
       {% endif %} {% if author.linkedin %}
       <li>
         <a href="https://www.linkedin.com/in/{{ author.linkedin }}"
-          ><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a
+          >{% include social-icon.html name="linkedin" %} LinkedIn</a
         >
       </li>
       {% endif %} {% if author.dblp %}
       <li>
         <a href="{{ author.dblp }}"
-          ><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a
+          >{% include social-icon.html name="dblp" %} DBLP</a
         >
       </li>
       {% endif %} {% if author.xing %}
@@ -104,7 +103,7 @@ endif %}
       {% endif %} {% if author.instagram %}
       <li>
         <a href="https://instagram.com/{{ author.instagram }}"
-          ><i class="fab fa-fw fa-instagram" aria-hidden="true"></i>
+          >{% include social-icon.html name="instagram" %}
           Instagram</a
         >
       </li>
@@ -125,7 +124,7 @@ endif %}
       {% endif %} {% if author.github %}
       <li>
         <a href="https://github.com/{{ author.github }}"
-          ><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a
+          >{% include social-icon.html name="github" %} GitHub</a
         >
       </li>
       {% endif %} {% if author.stackoverflow %}
@@ -209,7 +208,7 @@ endif %}
       {% endif %}       {% if author.googlescholar %}
       <li>
         <a href="{{ author.googlescholar }}"
-          ><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a
+          >{% include social-icon.html name="googlescholar" %} Google Scholar</a
         >
       </li>
       {% endif %} {% if author.pubmed %}
@@ -221,7 +220,7 @@ endif %}
       {% endif %} {% if author.orcid %}
       <li>
         <a href="{{ author.orcid }}"
-          ><i class="ai ai-orcid-square ai-fw"></i> ORCID</a
+          >{% include social-icon.html name="orcid" %} ORCID</a
         >
       </li>
       {% endif %} {% if author.impactstory %}
@@ -240,7 +239,7 @@ endif %}
       {% endif %} {% if author.bluesky %}
       <li>
         <a href="{{ author.bluesky }}"
-          ><i class="fa fa-twitter" aria-hidden="true"></i> Bluesky</a
+          >{% include social-icon.html name="bluesky" %} Bluesky</a
         >
       </li>
       {% endif %}
@@ -252,44 +251,44 @@ endif %}
       ></a>
       {% endif %} {% if author.email %}
       <a href="mailto:{{ author.email }}"
-        ><i class="fas fa-fw fa-envelope" aria-hidden="true"></i
-      ></a>
+        title="Email" aria-label="Email"
+        >{% include social-icon.html name="envelope" %}</a>
       {% endif %} {% if author.keybase %}
       <a href="https://keybase.io/{{ author.keybase }}"
         ><i class="fas fa-fw fa-key" aria-hidden="true"></i
       ></a>
       {% endif %} {% if author.researchgate %}
       <a href="{{ author.researchgate }}"
-        ><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i
-      ></a>
-      {% endif %} {% if author.twitter %}
-      <a href="https://twitter.com/{{ author.twitter }}"
-        ><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i
-      ></a>
+        title="ResearchGate" aria-label="ResearchGate"
+        >{% include social-icon.html name="researchgate" %}</a>
+      {% endif %} {% if author.x %}
+      <a href="https://x.com/{{ author.x }}"
+        title="X" aria-label="X"
+        >{% include social-icon.html name="x" %}</a>
       {% endif %} {% if author.facebook %}
       <a href="https://www.facebook.com/{{ author.facebook }}"
-        ><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i
-      ></a>
+        title="Facebook" aria-label="Facebook"
+        >{% include social-icon.html name="facebook" %}</a>
       {% endif %} {% if author.google_plus %}
       <a href="https://plus.google.com/+{{ author.google_plus }}"
         ><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i
       ></a>
       {% endif %} {% if author.linkedin %}
       <a href="https://www.linkedin.com/in/{{ author.linkedin }}"
-        ><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i
-      ></a>
+        title="LinkedIn" aria-label="LinkedIn"
+        >{% include social-icon.html name="linkedin" %}</a>
       {% endif %} {% if author.dblp %}
       <a href="{{ author.dblp }}"
-        ><i class="ai ai-dblp ai-fw" aria-hidden="true"></i
-      ></a>
+        title="DBLP" aria-label="DBLP"
+        >{% include social-icon.html name="dblp" %}</a>
       {% endif %} {% if author.xing %}
       <a href="https://www.xing.com/profile/{{ author.xing }}"
         ><i class="fab fa-fw fa-xing-square" aria-hidden="true"></i
       ></a>
       {% endif %} {% if author.instagram %}
       <a href="https://instagram.com/{{ author.instagram }}"
-        ><i class="fab fa-fw fa-instagram" aria-hidden="true"></i
-      ></a>
+        title="Instagram" aria-label="Instagram"
+        >{% include social-icon.html name="instagram" %}</a>
       {% endif %} {% if author.tumblr %}
       <a href="https://{{ author.tumblr }}.tumblr.com"
         ><i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i
@@ -300,8 +299,8 @@ endif %}
       ></a>
       {% endif %} {% if author.github %}
       <a href="https://github.com/{{ author.github }}"
-        ><i class="fab fa-fw fa-github" aria-hidden="true"></i
-      ></a>
+        title="GitHub" aria-label="GitHub"
+        >{% include social-icon.html name="github" %}</a>
       {% endif %} {% if author.stackoverflow %}
       <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"
         ><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i
@@ -352,14 +351,15 @@ endif %}
       ></a>
       {% endif %} {% if author.googlescholar %}
       <a href="{{ author.googlescholar }}"
-        ><i class="fas fa-fw fa-graduation-cap"></i
-      ></a>
+        title="Google Scholar" aria-label="Google Scholar"
+        >{% include social-icon.html name="googlescholar" %}</a>
       {% endif %} {% if author.pubmed %}
       <a href="{{ author.pubmed }}"
         ><i class="ai ai-pubmed-square ai-fw"></i
       ></a>
       {% endif %} {% if author.orcid %}
-      <a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i></a>
+      <a href="{{ author.orcid }}" title="ORCID" aria-label="ORCID"
+        >{% include social-icon.html name="orcid" %}</a>
       {% endif %} {% if author.impactstory %}
       <a href="{{ author.impactstory }}"
         ><i class="ai ai-impactstory ai-fw"></i
@@ -368,6 +368,10 @@ endif %}
       <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"
         ><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i
       ></a>
+      {% endif %} {% if author.bluesky %}
+      <a href="{{ author.bluesky }}"
+        title="Bluesky" aria-label="Bluesky"
+        >{% include social-icon.html name="bluesky" %}</a>
       {% endif %}
     </div>
   </div>

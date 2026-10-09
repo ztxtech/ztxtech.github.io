@@ -1,0 +1,6 @@
+{%- assign icon_path = "/assets/icons/social/" | append: include.name | append: ".svg" -%}
+<span
+  class="author__icon"
+  style="--icon: url('{{ icon_path | relative_url }}')"
+  aria-hidden="true"
+></span>
