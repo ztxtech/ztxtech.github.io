@@ -11,7 +11,7 @@
 
 ## 😘 Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/covers/2026-fracast.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Arxiv 2026</div><div class='paper-box-image'><div><img src='images/covers/2026-fracast.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Fracast-0: Fractal Weight Sharing for a Time Series Foundation Model with Only 85K Parameters](https://ztxtech.github.io/fracast-0/)
@@ -27,7 +27,7 @@ arXiv preprint arXiv:2609.32209 (2026).
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='images/covers/2026-aion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Arxiv 2026</div><div class='paper-box-image'><div><img src='images/covers/2026-aion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AION: Next-Generation Tasks and Practical Harness for Time Series](https://arxiv.org/abs/2605.25045)
@@ -43,7 +43,7 @@ arXiv preprint arXiv:2605.25045 (2026).
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Fuzzy Sets and Systems 2026</div><img src='images/covers/2026-fss.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Fuzzy Sets and Systems 2026</div><div class='paper-box-image'><div><img src='images/covers/2026-fss.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Ternary coding of maximum Deng entropy](https://doi.org/10.1016/j.fss.2026.109913)
@@ -57,7 +57,7 @@ Fuzzy Sets and Systems (2026): 109913.
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI 2025</div><img src='images/covers/2025-pami.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">IEEE TPAMI 2025</div><div class='paper-box-image'><div><img src='images/covers/2025-pami.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Time evidence fusion network: Multi-source view in long-term time series forecasting](https://ieeexplore.ieee.org/abstract/document/11120455/)
@@ -73,7 +73,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence (2025).
 
 ---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/covers/2025-cep.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class="badge">Arxiv 2025</div><div class='paper-box-image'><div><img src='images/covers/2025-cep.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Continuous Evolution Pool: Taming Recurring Concept Drift in Online Time Series Forecasting](https://arxiv.org/abs/2506.14790)

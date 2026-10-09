@@ -499,6 +499,7 @@ table a {
 }
 
 .paper-box {
+  position: relative;
   display: grid;
   margin: 0 0 1.35rem;
   padding: 1rem;
@@ -520,10 +521,6 @@ table a {
 .paper-box-image {
   position: relative;
   min-width: 0;
-}
-
-.paper-box-image > div {
-  position: relative;
 }
 
 .paper-box-image img {
@@ -563,7 +560,7 @@ table a {
   max-width: calc(100% - 0.6rem);
   padding: 0.24rem 0.55rem;
   overflow: hidden;
-  border-radius: 5px 0 5px 0;
+  border-radius: calc(var(--radius) - 1px) 0 5px 0;
   color: #ffffff;
   background: rgba(23, 32, 51, 0.92);
   box-shadow: 0 1px 2px rgba(23, 32, 51, 0.16);
