@@ -186,6 +186,11 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # 学术 CV 只通过直接链接访问，不进入 sitemap
+  - scope:
+      path: "files/cv/*.pdf"
+    values:
+      sitemap: false
 
 # Sass/SCSS
 sass:
