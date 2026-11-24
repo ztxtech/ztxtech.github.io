@@ -89,6 +89,7 @@ arXiv preprint arXiv:2506.14790 (2025).
 
 ## 😁 Other Publications
 
+- ![Static Badge](https://img.shields.io/badge/Chinese_Journal_of_Aeronautics_2026-005A90) [Adjacency matrix encoding for random permutation set](https://doi.org/10.1016/j.cja.2026.104569), Ruolan Cheng, **Tianxiang Zhan**, Yong Deng, and Ignacio Javier Pérez.
 - ![Static Badge](https://img.shields.io/badge/KDD_2026-EF413D) [End-to-End Learning for Partially-Observed Time Series with PyPOTS](https://dl.acm.org/doi/10.1145/3770855.3816470), Wenjie Du, Yiyuan Yang, **Tianxiang Zhan**, and Qingsong Wen.
 - ![Static Badge](https://img.shields.io/badge/IEEE_TFS_2026-00629B) [Epistemic Uncertainty-Oriented Data Augmentation via Evidential Granulation](https://ieeexplore.ieee.org/document/11641031), Binkai Liu, Qianli Zhou, **Tianxiang Zhan**, Neal N. Xiong, and Yong Deng.
 - ![Static Badge](https://img.shields.io/badge/Physica_A_2026-FFFDEB) [Temperature-controlled power normalization of belief function](https://doi.org/10.1016/j.physa.2026.131662), Xingyuan Chen, **Tianxiang Zhan**, and Yong Deng.
@@ -108,6 +109,8 @@ arXiv preprint arXiv:2506.14790 (2025).
 
 ## 📷 Preprints
 
+- [![arXiv](https://img.shields.io/badge/cs.LG-2610.29504-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2610.29504) [Rethinking Agentic Model Orchestration for Time Series Forecasting](https://arxiv.org/abs/2610.29504), Tong Guan, **Tianxiang Zhan**, Shirui Pan, and Ming Jin. Accepted by the NeurIPS 2026 Workshop on Foundation Models for Temporal Systems (FMTS).
+- [![arXiv](https://img.shields.io/badge/cs.SE-2610.04445-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2610.04445) [World Requirement Model: Learning Requirement-Change Consequences from Typed Artifact Graphs](https://arxiv.org/abs/2610.04445), Yuanpeng He, Lijian Li, Dongming Jin, Huanyao Zhang, Fangjing Li, Linyu Li, Chung-ju Huang, **Tianxiang Zhan**, Qingsong Wen, and Wenpin Jiao.
 - [![arXiv](https://img.shields.io/badge/cs.LG-2604.24041-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2604.24041) [End-to-End Learning for Partially-Observed Time Series with PyPOTS](https://arxiv.org/abs/2604.24041), Wenjie Du, Yiyuan Yang, **Tianxiang Zhan**, and Qingsong Wen.
 - [![arXiv](https://img.shields.io/badge/cs.CV-2506.02492-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2506.02492) [Co-Evidential Fusion with Information Volume for Medical Image Segmentation](https://arxiv.org/abs/2506.02492), Yuanpeng He, Lijian Li, **Tianxiang Zhan**, Chi-Man Pun, Wenpin Jiao, and Zhi Jin.
 - [![arXiv](https://img.shields.io/badge/cs.CV-2412.19433-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2412.19433) [Residual Feature-Reutilization Inception Network for Image Classification](https://arxiv.org/abs/2412.19433), Yuanpeng He, Wenjie Song, Lijian Li, **Tianxiang Zhan**, and Wenpin Jiao.
